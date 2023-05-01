@@ -10,111 +10,122 @@ header {
     justify-content: space-between;
     align-items: center;
 
-      img.logo {
-        width: 247px;
-        height: 108px;
-      }
-  
-      h1 {
-        font-size: 36px/43px;
-        margin-top: 30px;
-      }
+    div.left {
+        width: 65%;
+        
+        img.logo {
+            width: 247px;
+            height: 108px;
+        } 
 
-      img.line{
-        margin-top: 25px;
-        margin-bottom: 25px;
-        width: 80px;
-      }
-
-      button{
-        width: 135px;
-        height: 42px;
-        border: 2px solid $white;
-        background: transparent;
-        color: $white;
-        margin-top: 30px;
-        margin-bottom: 93px;
-      }
-
-    div.forum{
-        position: relative;
-        width: 360px;
-        height: 425px;
-        border-radius: 8px;
-        display: flex;
-        flex-direction: column;
-        color: $black;
-        box-shadow: 0px 5px 20px #00000029;
-        background: $white;
-
-        h2{
-            width: 100%;
-            height: 57px;
-            border-radius: 7px 0px;
-            background: $gray;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 24px;
+        h1 {
+            font-size: 36px/43px;
+            margin-top: 30px;
         }
 
-        span{
-            color: $orange;
-        }
-
-        p{
-            margin: 35px 0 3px 51px;
-            font-size: 19px;
-        }
-
-        div.Your-details{
-            display: flex;
-            flex-direction: column;
-
-            input{
-                margin: 18px 51px 0 51px;
-                padding-left: 10px;
-                padding-bottom: 3px;
-                font-size: 15px;
-                color: $grey;
-                opacity: 0.6;
-                border: none;
-                border-bottom: 2px solid $grey;
-            }
-        }
-
-        div.Type-of-subscription{
-
-            input[type="radio"]{
-
-                
-                background: $green;
-                color: $green;
-                border-color: $green;
-             }
-            
-             input:nth-of-type(1){
-                margin: 16px 0 0px 51px;
-             }
-             
-            label{
-                font-size: 11px;
-                margin-right: 10px;                
-            }
+        img.line{
+            margin-top: 35px;
+            margin-bottom: 35px;
+            width: 80px;
         }
 
         button{
-            position: absolute;
-            bottom: 0px;
-            width: 100%;
-            height: 57px;
-            background: $green;
+            width: 135px;
+            height: 42px;
+            border: 2px solid $white;
+            background: transparent;
             color: $white;
-            border: none;
-            font-size: 22px;
-            border-radius: 0px 7px;
-            margin-top: 0px;
-            margin-bottom: 0px;
+            margin-top: 40px;
+            margin-bottom: 93px;
+        }
+    }
+
+    div.right {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        width: 35%;
+
+        div.forum{
+            position: relative;
+            width: 360px;
+            height: 425px;
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            color: $black;
+            box-shadow: 0px 5px 20px #00000029;
+            background: $white;
+    
+            h2{
+                width: 100%;
+                height: 57px;
+                border-radius: 7px 0px;
+                background: $gray;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 22px;
+            }
+    
+            span{
+                color: $orange;
+            }
+    
+            p{
+                margin: 35px 0 3px 51px;
+                font-size: 19px;
+            }
+    
+            div.Your-details{
+                display: flex;
+                flex-direction: column;
+    
+                input{
+                    margin: 18px 51px 0 51px;
+                    padding-left: 10px;
+                    padding-bottom: 3px;
+                    font-size: 15px;
+                    color: $grey;
+                    opacity: 0.6;
+                    border: none;
+                    border-bottom: 2px solid $grey;
+                }
+            }
+    
+            div.Type-of-subscription{
+    
+                input[type="radio"]{
+    
+                    
+                    background: $green;
+                    color: $green;
+                    border-color: $green;
+                 }
+                
+                 input:nth-of-type(1){
+                    margin: 16px 0 0px 51px;
+                 }
+                 
+                label{
+                    font-size: 11px;
+                    margin-right: 10px;                
+                }
+            }
+    
+            button{
+                position: absolute;
+                bottom: 0px;
+                width: 100%;
+                height: 57px;
+                background: $green;
+                color: $white;
+                border: none;
+                font-size: 22px;
+                border-radius: 0px 7px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
         }
     }
   }

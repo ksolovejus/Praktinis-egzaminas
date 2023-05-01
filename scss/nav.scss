@@ -4,14 +4,13 @@ nav{
     background: $black 0% 0% no-repeat padding-box;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 
-    img{
-        margin-left: 10%;
-    }
 
-    div{
-        margin-right: 10%;
+    div.right{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+
         button{
         margin-right: 25px;
         background: $black;
