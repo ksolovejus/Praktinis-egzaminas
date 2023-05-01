@@ -1,0 +1,22 @@
+nav{
+    max-width: 1980px;
+    height: 72px;
+    background: $black 0% 0% no-repeat padding-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img{
+        margin-left: 10%;
+    }
+
+    div{
+        margin-right: 10%;
+        button{
+        margin-right: 25px;
+        background: $black;
+        border: 3px;
+        color: $white;
+        }
+    }
+}

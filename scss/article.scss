@@ -1,0 +1,38 @@
+article{
+    background: $white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1980px;
+    min-height: 105px;
+
+    div.Social-Media-text{
+        margin: 15px 0;
+
+        h2 {
+            color: $black-title;
+            font-size: 24px;
+        }
+
+        p {
+            color: $gray-lorem;
+            font-size: 19px;
+            margin-top: 5px;
+        }
+    }
+
+    div.Social-Media-icon{
+
+        img{
+            cursor: pointer;
+            margin-right: 80px;
+        }
+        
+        i{
+            cursor: pointer;
+            font-size: 28px;
+            color: $orange;
+            opacity: 65%;
+        }
+    }
+}
