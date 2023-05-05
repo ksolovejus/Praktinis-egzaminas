@@ -5,12 +5,14 @@ section-2 {
   
     position: relative;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+
     div.left {
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-left: 13%;
        
         .logo {
             width: 389px;
@@ -20,8 +22,59 @@ section-2 {
 
     div.right {
         display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column ;
+        align-items: start;
+        flex-direction: column;
+        margin-left: 14%;
+        margin-right: 21%;
+
+        h1 {
+            color: $white;
+            font-size: 34px;
+            margin-top: 70px;
+        }
+
+        img {
+            margin-top: 25px;
+        }
+
+        p.under-line{
+            color: $gray-lorem;
+            font-size: 16px;
+            margin-top: 25px;
+        }
+
+        div.conatainer {
+            margin-top: 50px;
+            display: flex;
+            align-items: center;
+
+            div.icon {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: $orange;
+                min-width: 50px;
+                min-height: 50px;
+                border-radius: 100%;
+                d
+                i {
+                    font-size: 30px;
+                }
+            }
+            
+            div.text-holder {
+                margin-left: 20px;
+
+                h3 {
+                    font-size: 16px;
+                }
+
+                p {
+                    font-size: 14px;
+                    color: $gray-lorem;
+                    margin-top: 5px;
+                }
+            }
+        }
     }
 }
