@@ -1,0 +1,118 @@
+section-5 {
+    max-width: 1980px;
+    height: 573px;
+    background: $orange;
+  
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    h1 {
+        font: normal normal 600 36px/43px Montserrat;
+        color: $white;
+        margin-top: 80px;
+    }
+
+    p {
+        font: normal normal normal 14px/20px Montserrat;
+        color: $white;
+        margin-top: 60px;
+    }
+
+    div.forum {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: $white;
+        border-radius: 7px;
+        width: 390px;
+        height: 314px;
+        box-shadow: 0px 5px 6px #00000029;
+
+        margin-top: 15px;
+
+        div.Your-details {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 15px;
+
+            input {
+                margin-top: 10px;
+                width: 260px;
+                height: 20px;
+                border: none;
+                background: transparent;
+                border-bottom: 1px solid $grey;
+                outline: none;
+            }
+        }
+
+        div.radio {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            div.checkbox {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            input[type="radio"] {
+                visibility: hidden;
+                cursor: pointer;
+            }
+
+            label {
+                font: normal normal 600 9px/27px Montserrat;
+                color: $black; 
+            }
+
+            label.green-radio {
+                position: relative;
+                display: block;
+                width: 12.5px;
+                height: 12.5px;
+                border-radius: 100%;
+                border: 1px solid $green;
+                margin-right: 10px;
+            }
+
+           
+
+            label.green-radio::before {
+                visibility: hidden;
+                position: absolute;
+                content: "";
+                width: 5px;
+                height: 5px;
+                background: $green;
+                border-radius: 100%;
+                left: 3px;
+                top: 2.5px;
+                z-index: 10;
+            }
+
+            input[type="radio"]:checked+label.green-radio::before {
+                visibility: visible;
+            } 
+        }
+
+        button {
+            width: 60%;
+            height: 57px;
+            background: $green;
+            color: $white;
+            border: none;
+            font-size: 22px;
+            border-radius: 0px 7px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+    }
+}

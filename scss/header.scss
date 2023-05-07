@@ -61,7 +61,7 @@ header {
             h2{
                 width: 100%;
                 height: 57px;
-                border-radius: 7px 0px;
+                border-radius: 7px 7px 0 0;
                 background: $gray;
                 display: flex;
                 justify-content: center;
@@ -80,29 +80,26 @@ header {
     
             div.Your-details{
                 display: flex;
+                justify-content: center;
+                align-items: center;
                 flex-direction: column;
+
+                p {
+                    margin: 35px 0 0 0;
+                }
     
                 input{
-                    margin: 18px 51px 0 51px;
-                    padding-left: 10px;
-                    padding-bottom: 3px;
-                    font-size: 15px;
-                    color: $grey;
-                    opacity: 0.6;
+                    margin-top: 20px;
+                    width: 260px;
+                    height: 20px;
                     border: none;
-                    border-bottom: 2px solid $grey;
+                    background: transparent;
+                    border-bottom: 1px solid $grey;
+                    outline: none;
                 }
             }
     
             div.Type-of-subscription{
-    
-                input[type="radio"]{
-    
-                    
-                    background: $green;
-                    color: $green;
-                    border-color: $green;
-                 }
                 
                  input:nth-of-type(1){
                     margin: 16px 0 0px 51px;
@@ -123,7 +120,7 @@ header {
                 color: $white;
                 border: none;
                 font-size: 22px;
-                border-radius: 0px 7px;
+                border-radius: 0 0 7px 7px;
                 margin-top: 0px;
                 margin-bottom: 0px;
             }
