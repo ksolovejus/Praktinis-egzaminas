@@ -33,7 +33,7 @@ section {
                 width: 100px;
                 height: 100px;
                 background: transparent url('/images/tab-1.png') 0% 0% no-repeat padding-box;
-                box-shadow: 4 px 1px 6px #00000029;
+                box-shadow: 4px 1px 6px #00000029;
                 opacity: 1;
                 z-index: -1;
                 margin-top: 21px;
@@ -134,9 +134,10 @@ section {
                     transition: 0.3s;
 
                     .overlay {
-                        height: 88%;
+                        height: 88.5%;
                         width: 95.5%;
                         left: 7.5px;
+                        top: 5px;
                     }
                 }
 
