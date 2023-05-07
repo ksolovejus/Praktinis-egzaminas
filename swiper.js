@@ -2,14 +2,8 @@ const swiper = new Swiper('.swiper', {
   // Optional parameters
   direction: 'horizontal',
   
-    // Navigation arrows
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  }
-  
-//   slidesPerView: 3,
-//   slidesPerGroup: 3,
+  slidesPerView: 3,
+  slidesPerGroup: 3,
 });
 
 // Change button style
