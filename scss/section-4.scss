@@ -1,0 +1,87 @@
+section-4 {
+    max-width: 1980px;
+    height: 591px;
+    background: rebeccapurple;
+  
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    h1 {
+        font: normal normal 600 36px/43px Montserrat;
+        color: $black;
+        margin-top: 100px;
+    }
+
+    div.line {
+        width: 64px;
+        height: 2px;
+        background: $blue;
+        margin-top: 25px;
+    }
+
+    div.container {
+        margin-top: 25px;
+
+        div.page {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 25px;
+
+            div.item {
+                width: 273px;
+                height: 236px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+
+                div.chat {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background: $blue;
+                    border-radius: 10px;
+
+                    p {
+                        color: $white;
+                        font: normal normal normal 16px/22px Montserrat;
+                        margin: 20px;
+                    }
+                }
+
+                div.user {
+                    display: flex;
+                    align-items: center;
+                    width: 100%;
+                    margin-top: 25px;
+
+                  img {
+                    border-radius: 100%;
+                  }
+
+                  div.about {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    margin-left: 10px;
+
+                    h1 {
+                        font: normal normal normal 20px/24px Montserrat;
+                        color: $black-title;
+                        margin: 0;
+                    }
+
+                    p {
+                        font: normal normal normal 14px/17px Montserrat;
+                        color: $gray-lorem;
+                    }
+                  }
+                }
+            }
+        }
+    }
+}

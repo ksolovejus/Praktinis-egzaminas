@@ -27,15 +27,18 @@ main {
     div.container {
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: end;
         gap: 25px;
-        margin-top: 80px;
+        height: 100%;
+     
+        margin-bottom: 100px;
 
         div.item {
             display: flex;
             flex-direction: column;
             // border: 3px solid black ;
             width: 343px;
+            transition: 0.3s;
 
             div.price {
                 display: flex;
@@ -70,11 +73,13 @@ main {
                 height: 6px;
                 background: $green;
                 border: none;
+                transition: 0.3s;
 
                 h4 {
                     font: normal normal normal 14px/24px Montserrat;
                     color: $white;
                     opacity: 0;
+                    transition: 0.3s;
                 }
             }
 
@@ -94,5 +99,19 @@ main {
                 }
             }
         }
+
+         div.item:hover{
+            transform: scaleX(-20px);
+            button {
+                cursor: pointer;
+                height: 40px;
+                transition: 0.3s;
+
+                h4{
+                    opacity: 1;
+                    transition: 0.3s;
+                }
+            }
+         }
     }
 }
