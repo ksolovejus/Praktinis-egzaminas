@@ -24,50 +24,44 @@ section-4 {
     div.container {
         margin-top: 25px;
 
-        div.page {
+        div.item {
+            width: 273px;
+            height: 236px;
             display: flex;
             justify-content: center;
             align-items: center;
-            gap: 25px;
+            flex-direction: column;
 
-            div.item {
-                width: 273px;
-                height: 236px;
+            div.chat {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: $blue;
+                border-radius: 10px;
+
+                p {
+                    color: $white;
+                    font: normal normal normal 16px/22px Montserrat;
+                    margin: 20px;
+                }
+            }
+
+            div.user {
+                display: flex;
+                align-items: center;
+                width: 100%;
+                margin-top: 25px;
+
+                img {
+                border-radius: 100%;
+                }
+
+                div.about {
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 flex-direction: column;
-
-                div.chat {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    background: $blue;
-                    border-radius: 10px;
-
-                    p {
-                        color: $white;
-                        font: normal normal normal 16px/22px Montserrat;
-                        margin: 20px;
-                    }
-                }
-
-                div.user {
-                    display: flex;
-                    align-items: center;
-                    width: 100%;
-                    margin-top: 25px;
-
-                  img {
-                    border-radius: 100%;
-                  }
-
-                  div.about {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    flex-direction: column;
-                    margin-left: 10px;
+                margin-left: 10px;
 
                     h1 {
                         font: normal normal normal 20px/24px Montserrat;
@@ -79,7 +73,6 @@ section-4 {
                         font: normal normal normal 14px/17px Montserrat;
                         color: $gray-lorem;
                     }
-                  }
                 }
             }
         }
