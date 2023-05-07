@@ -100,14 +100,54 @@ header {
             }
     
             div.Type-of-subscription{
-                
-                 input:nth-of-type(1){
-                    margin: 16px 0 0px 51px;
-                 }
-                 
-                label{
-                    font-size: 11px;
-                    margin-right: 10px;                
+
+                div.radio {
+                    margin-top: 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+        
+                    div.checkbox {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+        
+                    input[type="radio"] {
+                        visibility: hidden;
+                        cursor: pointer;
+                    }
+        
+                    label {
+                        font: normal normal 600 9px/27px Montserrat;
+                        color: $black; 
+                    }
+        
+                    label.green-radio-up {
+                        position: relative;
+                        display: block;
+                        width: 12.5px;
+                        height: 12.5px;
+                        border-radius: 100%;
+                        border: 1px solid $green;
+                        margin-right: 10px;
+                    }
+        
+                    label.green-radio-up::before {
+                        visibility: hidden;
+                        position: absolute;
+                        content: "";
+                        width: 5px;
+                        height: 5px;
+                        background: $green;
+                        border-radius: 100%;
+                        left: 3px;
+                        top: 2.5px;
+                    }
+        
+                    input[type="radio"]:checked+label.green-radio-up::before {
+                        visibility: visible;
+                    } 
                 }
             }
     
