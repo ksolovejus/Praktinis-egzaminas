@@ -3,8 +3,9 @@ article{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1980px;
-    min-height: 105px;
+    width: 1980px;
+    height: 105px;
+
 
     div.left{
 
@@ -25,12 +26,12 @@ article{
         justify-content: end;
         align-items: center;
         img{
-            cursor: pointer;
+            cursor: url('/images/cursor.png'), pointer;
             margin-right: 140px;
         }
 
         i{
-            cursor: pointer;
+            cursor: url('/images/cursor.png'), pointer;
             font-size: 28px;
             color: $orange;
             opacity: 65%;

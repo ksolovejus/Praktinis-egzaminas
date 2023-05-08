@@ -88,7 +88,7 @@ section {
                     opacity: 0;
                     transition: 0.4s ease-in-out;
                     background: $orange;
-                    cursor: pointer;
+                    cursor: url('/images/cursor.png'), pointer;
 
                     .content {
                         position: absolute;

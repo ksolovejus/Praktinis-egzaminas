@@ -13,9 +13,11 @@ nav{
 
         button{
         margin-right: 25px;
-        background: $black;
+        background: transparent;
         border: 3px;
         color: $white;
+        cursor: url('/images/cursor.png'), pointer;
+        transition: 0.3s;
         }
     }
 }

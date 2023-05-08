@@ -1,5 +1,4 @@
 section-5 {
-    max-width: 1980px;
     height: 573px;
     background: $orange;
   
@@ -65,7 +64,7 @@ section-5 {
 
             input[type="radio"] {
                 visibility: hidden;
-                cursor: pointer;
+                cursor: url('/images/cursor.png'), pointer;
             }
 
             label {
@@ -108,8 +107,15 @@ section-5 {
             border: none;
             font-size: 22px;
             border-radius: 0px 7px;
-            margin-top: 0px;
+            margin-top: 10px;
             margin-bottom: 0px;
+            cursor: url('/images/cursor.png'), pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background: $green-hover;
+            color: $gray;
         }
     }
 }

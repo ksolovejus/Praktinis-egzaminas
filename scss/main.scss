@@ -73,6 +73,7 @@ main {
                 height: 6px;
                 background: $green;
                 border: none;
+                cursor: url('/images/cursor.png'), pointer;
                 transition: 0.3s;
 
                 h4 {
@@ -81,6 +82,11 @@ main {
                     opacity: 0;
                     transition: 0.3s;
                 }
+            }
+
+            button:hover {
+                background: $green-hover;
+                color: $gray;
             }
 
             div.about {
@@ -103,7 +109,7 @@ main {
          div.item:hover{
             transform: scaleX(-20px);
             button {
-                cursor: pointer;
+                cursor: url('/images/cursor.png'), pointer;
                 height: 40px;
                 transition: 0.3s;
 
