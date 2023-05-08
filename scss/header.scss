@@ -1,9 +1,12 @@
 header {
     min-height: 639px;
     // background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/img-1.png);
-    background: linear-gradient(rgba(0, 0, 0, 0.5));
+    background: transparent linear-gradient(rgba(0, 0, 0, 0.8));
     background-position: center;
     background-size: cover;
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
   
     position: relative;
     display: flex;
