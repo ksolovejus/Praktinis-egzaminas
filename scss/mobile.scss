@@ -212,6 +212,19 @@
             margin-top: 35px;
             text-align: center;
         }
+        div.container{
+            div.swiper-button-prev{
+                visibility: visible;
+            }
+    
+            div.swiper-button-next{
+                visibility: visible;
+            }
+
+            .tab-buttons button.invisible{
+                display: block;
+            }
+        }
     }
 
     main {

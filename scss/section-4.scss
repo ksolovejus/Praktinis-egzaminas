@@ -24,6 +24,15 @@ section-4 {
         margin-top: 25px;
         width: 100%;
 
+        div.swiper-button-prev{
+            visibility: hidden;
+        }
+
+        
+        div.swiper-button-next{
+            visibility: hidden;
+        }
+
         div.item {
             width: 273px;
             height: 236px;
