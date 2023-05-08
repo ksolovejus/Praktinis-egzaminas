@@ -73,6 +73,7 @@ main {
                 height: 6px;
                 background: $green;
                 border: none;
+                transition: 0.3s;
                 cursor: url('/images/cursor.png'), pointer;
                 transition: 0.3s;
 
@@ -86,7 +87,7 @@ main {
 
             button:hover {
                 background: $green-hover;
-                color: $gray;
+                color: $green-hover;
             }
 
             div.about {
