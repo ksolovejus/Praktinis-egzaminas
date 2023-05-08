@@ -10,6 +10,11 @@
     align-items: center;
 }
 
+.swiper-button-next,
+.swiper-button-prev {
+    color: $orange;
+}
+
 .tab-buttons {
     display: flex;
     justify-content: center;
