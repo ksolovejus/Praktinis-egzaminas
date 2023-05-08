@@ -1,5 +1,4 @@
 main {
-    max-width: 1980px;
     height: 883px;
     background: $blue;
   
@@ -25,6 +24,7 @@ main {
     }
 
     div.container {
+        max-width: 1920px;
         display: flex;
         justify-content: center;
         align-items: end;
