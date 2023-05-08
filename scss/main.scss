@@ -36,7 +36,6 @@ main {
         div.item {
             display: flex;
             flex-direction: column;
-            // border: 3px solid black ;
             width: 343px;
             transition: 0.3s;
 
@@ -73,7 +72,6 @@ main {
                 height: 6px;
                 background: $green;
                 border: none;
-                transition: 0.3s;
                 cursor: url('/images/cursor.png'), pointer;
                 transition: 0.3s;
 
