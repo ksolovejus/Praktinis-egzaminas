@@ -1,0 +1,100 @@
+@media (max-width: 768px) {
+
+    * {
+        max-width: 768px;
+      }
+
+    h1 {
+        font-size: 1em;
+    }
+
+    h2 {
+        font-size: 1em;
+    }
+
+    h3 {
+        font-size: 1em;
+    }
+
+    h4 {
+        font-size: 1em;
+    }
+
+    p {
+        font-size: 0.5em;
+    }
+    
+    nav{
+        min-height: 96px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        div.left {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            margin-top: 10px;
+        }
+
+        div.right {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 0;
+            margin-top: 10px;
+            margin-bottom: 10px;
+
+            button {
+                background: $black-title;
+                border-radius: 5px;
+                border: 1px solid gray;
+                padding: 3px;
+
+            }
+        }
+    }
+
+    header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        div.left {
+            img.logo {
+                margin-top: 40px;
+            }
+    
+            img.line{
+                margin-top: 15px;
+                margin-bottom: 5px;
+                width: 80px;
+            }
+    
+            button{
+                width: 135px;
+                height: 42px;
+                border: 2px solid $white;
+                background: transparent;
+                color: $white;
+                margin-top: 20px;
+                margin-bottom: 43px;
+                transition: 0.3s;
+            }
+    
+        }
+
+        div.right {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .forum {
+                margin-left: 25%;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}

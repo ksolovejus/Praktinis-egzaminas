@@ -51,11 +51,10 @@ header {
         display: flex;
         justify-content: end;
         align-items: center;
-        width: 35%;
 
         div.forum{
             position: relative;
-            width: 360px;
+            min-width: 360px;
             height: 425px;
             border-radius: 8px;
             display: flex;
