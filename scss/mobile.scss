@@ -26,33 +26,35 @@
     
     nav{
         min-height: 96px;
+        div.container {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+            
+            div.left {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0;
+                margin-top: 10px;
+            }
 
-        div.left {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin: 0;
-            margin-top: 10px;
-        }
+            div.right {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                margin: 0;
+                margin-top: 10px;
+                margin-bottom: 10px;
 
-        div.right {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            margin: 0;
-            margin-top: 10px;
-            margin-bottom: 10px;
+                button {
+                    background: $black-title;
+                    border-radius: 5px;
+                    border: 1px solid gray;
+                    padding: 3px;
 
-            button {
-                background: $black-title;
-                border-radius: 5px;
-                border: 1px solid gray;
-                padding: 3px;
-
+                }
             }
         }
     }
@@ -262,35 +264,39 @@
     }
 
     footer {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
 
-        div.left{
+        div.container {
             display: flex;
             justify-content: center;
             align-items: center;
-            margin: 0;
-            img{
-                cursor: url('/images/cursor.png'), pointer;
-                margin-right: 35px;
-                opacity: 1;
-                filter: brightness(1.25);
+            flex-direction: column;
+
+            div.left{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0;
+                img{
+                    cursor: url('/images/cursor.png'), pointer;
+                    margin-right: 35px;
+                    opacity: 1;
+                    filter: brightness(1.25);
+                }
+        
+                i{
+                    cursor: url('/images/cursor.png'), pointer;
+                    font-size: 28px ;
+                    color: $orange;
+                    opacity: 0.7;
+                }  
             }
     
-            i{
-                cursor: url('/images/cursor.png'), pointer;
-                font-size: 28px ;
-                color: $orange;
-                opacity: 0.7;
-            }  
-        }
-
-        div.right {
-            p {
-                text-align: center;
-                margin-top: 20px;
+            div.right {
+                margin: 0;
+                p {
+                    text-align: center;
+                    margin-top: 20px;
+                }
             }
         }
     }
