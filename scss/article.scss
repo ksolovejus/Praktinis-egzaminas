@@ -1,13 +1,10 @@
 article{
     background: $white;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    min-height: 105px;
-    display: flex;
     justify-content: center;
     align-items: center;
-    gap: 100px;
+    min-height: 105px;
+    gap: 50px;
 
 
     div.left{
@@ -30,7 +27,7 @@ article{
         align-items: center;
         img{
             cursor: url('/images/cursor.png'), pointer;
-            margin-right: 140px;
+            margin-right: 100px;
         }
 
         i{
