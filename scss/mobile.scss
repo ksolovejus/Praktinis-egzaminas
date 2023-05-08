@@ -6,22 +6,27 @@
 
     h1 {
         font-size: 1em;
+        text-align: center;
     }
 
     h2 {
         font-size: 1em;
+        text-align: center;
     }
 
     h3 {
         font-size: 1em;
+        text-align: center;
     }
 
     h4 {
         font-size: 1em;
+        text-align: center;
     }
 
     p {
         font-size: 0.5em;
+        text-align: center;
     }
     
     nav{
@@ -163,6 +168,13 @@
         }
 
         div.right {
+            margin: 0;
+            margin-left: 25px;
+            margin-right: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
             h1{
                 margin-top: 35px;
             }
@@ -174,6 +186,10 @@
             div.conatainer {
                 margin: 0;
                 margin-bottom: 25px;
+
+                h3{
+                    text-align: left;
+                }
             }
         }
     }
@@ -220,6 +236,10 @@
             text-align: center;
         }
         div.container{
+            width: 100%;
+            div.swiper .swiper-initialized .swiper-horizontal{
+                width: 100px;
+            }
             div.swiper-button-prev{
                 visibility: visible;
             }
@@ -236,9 +256,10 @@
 
     main {
 
-        height: 1940px;
+        height: 1840px;
         h1{
-            margin: 25px;
+            margin: 0;
+            margin-top: 25px;
         }
 
         p{
