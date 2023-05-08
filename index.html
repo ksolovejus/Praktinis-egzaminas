@@ -29,11 +29,11 @@
   </div>
   
   <div class="right">
-    <button>Features</button>
-    <button>About</button>
-    <button>Pricing</button>
-    <button>Review</button>
-    <button>Contact</button>
+    <button class="moveMeToMySection" data-section="Features">Features</button>
+    <button class="moveMeToMySection" data-section="About">About</button>
+    <button class="moveMeToMySection" data-section="Pricing">Pricing</button>
+    <button class="moveMeToMySection" data-section="Review">Review</button>
+    <button class="moveMeToMySection" data-section="Contact">Contact</button>
   </div>
    
  </nav>
@@ -110,7 +110,7 @@
 
  </article>
 
- <section>
+ <section id="Features">
 
   <img class="background" src="images/img-2.png" alt="background hills">
 
@@ -201,7 +201,7 @@
   </div>
  </section-2>
 
- <section-3>
+ <section-3 id="About">
 
   <h1>WHY THIS IS AWESOME</h1>
   <img src="images/line-3.svg" alt="line">
@@ -228,7 +228,7 @@
   </div>
  </section-3>
 
- <main>
+ <main id="Pricing">
   <h1>PRICING OPTIONS</h1>
   <img src="images/line-4.png" alt="line">
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -296,7 +296,7 @@
   </div>
  </main>
  
- <section-4>
+ <section-4 id="Review">
   <h1>WHAT OUR CUSTOMERS ARE SAYING</h1>
   <div class="line"></div>
 
@@ -512,7 +512,7 @@
   </div>
  </section-4>
 
- <section-5>
+ <section-5 id="Contact">
   <h1>CONTACT US</h1>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
@@ -565,6 +565,7 @@
  <script src="script.js"></script>
  <script src="LocalStorage.js"></script>
  <script src="animation.js"></script>
+ <script src="scroll.js"></script>
 
  <!-- Swiper js -->
  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
@@ -572,6 +573,5 @@
 
  <!-- Custom swiper js -->
  <script src="swiper.js"></script>
- <script src="checkbox.js"></script>
 </body>
 </html>
