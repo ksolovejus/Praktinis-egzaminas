@@ -30,7 +30,7 @@
     }
     
     nav{
-        min-height: 96px;
+        min-height: 106px;
         div.container {
         display: flex;
         flex-direction: column;
@@ -68,6 +68,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        min-height: 1150px;
 
         div.left {
             margin-right: 40px;
@@ -106,7 +107,6 @@
             margin: 0;
             .forum {
                 margin-left: 25%;
-                margin-bottom: 10px;
             }
         }
     }
