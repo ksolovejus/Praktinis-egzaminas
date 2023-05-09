@@ -22,24 +22,33 @@
 </head>
 <body>
 
- <nav>
-  <div class="container">
-
-    <div class="left">
-      <img src="images/logo.svg" alt="Logotipe">
+  <nav>
+    <div class="container">
+      <div class="left">
+        <img src="images/logo.svg" alt="Logotipe">
+      </div>
+      
+      <div class="right">
+        <button class="moveMeToMySection" data-section="section1">Features</button>
+        <button class="moveMeToMySection" data-section="section2">About</button>
+        <button class="moveMeToMySection" data-section="section3">Pricing</button>
+        <button class="moveMeToMySection" data-section="section4">Review</button>
+        <button class="moveMeToMySection" data-section="section5">Contact</button>
+        <div class="burger-menu">
+          <i class="fa-solid fa-bars"></i>
+          <div class="menu-items">
+            <button class="moveMeToMySection" data-section="Features">Features</button>
+            <button class="moveMeToMySection" data-section="About">About</button>
+            <button class="moveMeToMySection" data-section="Pricing">Pricing</button>
+            <button class="moveMeToMySection" data-section="Review">Review</button>
+            <button class="moveMeToMySection" data-section="Contact">Contact</button>
+          </div>
+        </div>
+      </div>
     </div>
-    
-    <div class="right">
-      <button class="moveMeToMySection" data-section="Features">Features</button>
-      <button class="moveMeToMySection" data-section="About">About</button>
-      <button class="moveMeToMySection" data-section="Pricing">Pricing</button>
-      <button class="moveMeToMySection" data-section="Review">Review</button>
-      <button class="moveMeToMySection" data-section="Contact">Contact</button>
-      <i class="fa-solid fa-bars"></i>
-    </div>
-  </div>
+  </nav>
   
- </nav>
+  
 
  <header>
 
@@ -115,7 +124,7 @@
 
  </article>
 
- <section id="Features">
+ <section id="section1" class="animate-section">
 
   <img class="background" src="images/img-2.png" alt="background hills">
 
@@ -206,7 +215,7 @@
   </div>
  </section-2>
 
- <section-3 id="About">
+ <section-3 id="section2" class="animate-section">
 
   <h1>WHY THIS IS AWESOME</h1>
   <img src="images/line-3.svg" alt="line">
@@ -242,7 +251,7 @@
   </div>
  </section-3>
 
- <main id="Pricing">
+ <main id="section3" class="animate-section">
   <h1>PRICING OPTIONS</h1>
   <img src="images/line-4.png" alt="line">
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -310,7 +319,7 @@
   </div>
  </main>
  
- <section-4 id="Review">
+ <section-4 id="section4" class="animate-section">
   <h1>WHAT OUR CUSTOMERS ARE SAYING</h1>
   <div class="line"></div>
 
@@ -530,7 +539,7 @@
   </div>
  </section-4>
 
- <section-5 id="Contact">
+ <section-5 id="section5" class="animate-section">
   <h1>CONTACT US</h1>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
@@ -588,6 +597,9 @@
  <script src="LocalStorage.js"></script>
  <script src="animation.js"></script>
  <script src="scroll.js"></script>
+
+ <!-- Don't work -->
+ <script src="burger.js"></script>
 
  <!-- Swiper js -->
  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>

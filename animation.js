@@ -36,5 +36,3 @@ document.querySelector('.item-1').addEventListener('click', () => {
     document.querySelector('.item-2').style.gridRow = '2/2';
     document.querySelector('.item-2').style.gridColumn = '2/2';
 });
-
-// Burger 
