@@ -71,6 +71,10 @@
 
         div.left {
             margin-right: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
             img.logo {
                 margin-top: 40px;
             }
@@ -113,6 +117,10 @@
         justify-content: center;
         align-items: center;
         gap: 20px;
+
+        div.left {
+            margin: 0;
+        }
 
         div.right {
             margin: 0;
@@ -250,6 +258,12 @@
 
             .tab-buttons button.invisible{
                 display: block;
+            }
+
+            div.item {
+                p {
+                    text-align: left;
+                }
             }
         }
     }
